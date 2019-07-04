@@ -2,7 +2,7 @@ import shutil, requests, json
 import os
 import time
 
-os.makedirs("images")
+os.makedirs("image")
 
 def download(url,name):
     path = url
