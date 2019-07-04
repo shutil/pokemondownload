@@ -3,7 +3,7 @@ This script is used to download all the images of Pokemon.
 
 
 ## modules required
-Use the package manager pipfor installation.
+Use the package manager pip for installation.
 
 ```bash
 pip install requests-html
