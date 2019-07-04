@@ -2,6 +2,8 @@ import shutil, requests, json
 import os
 import time
 
+os.makedirs("images")
+
 def download(url,name):
     path = url
     response = requests.get(url, stream=True)
