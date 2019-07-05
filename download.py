@@ -5,7 +5,6 @@ import time
 os.makedirs("image")
 
 def download(url,name):
-    path = url
     response = requests.get(url, stream=True)
     with open('image/'+name+'.jpg', 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
