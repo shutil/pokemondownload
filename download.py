@@ -6,8 +6,10 @@ os.makedirs("image")
 
 def download(url,name):
     response = requests.get(url, stream=True)
-    with open('image/'+name+'.jpg', 'wb') as out_file:
-        shutil.copyfileobj(response.raw, out_file)
+    f = open("image/"+name+".jpg","wb")
+    shutil.copyfileobj(response.raw,f)
+    f.close()
+    
     del response
 
 
