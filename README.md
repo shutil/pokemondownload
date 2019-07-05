@@ -17,5 +17,5 @@ Please make sure to update tests as appropriate.
 ## Run file in this format
 
 ```bash
-pyhon3 pokemon.py && python3 download.py
+python3 pokemon.py && python3 download.py
 ```
