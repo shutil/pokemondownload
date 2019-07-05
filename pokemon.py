@@ -8,8 +8,7 @@ r = session.get("https://pokemondb.net/pokedex/national")
 
 links = r.html.find('.img-sprite')
 
-# https://img.pokemondb.net/artwork/large/bulbasaur.jpg
-#fing to find image
+
 
 
 pokemon_images = {'pokemon_names':[],'pokemon_image_links':[]}
